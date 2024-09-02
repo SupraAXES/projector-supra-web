@@ -26,7 +26,6 @@ To use **projector-supra-web** for [**SupraRBI-VNC**](https://github.com/supraax
 docker run --name rbi-vnc -d \
     --network supra-projector \
 	-p 5900:5900 \
-	-e SUPRA_RBI_NAME='rbi-vnc' \
 	-e SUPRA_PROJECTOR_NETWORK='supra-projector' \
 	-e SUPRA_PROJECTOR_IMAGE='supraaxes/projector-supra-web' \
 	-v /var/run/docker.sock:/var/run/docker.sock \
