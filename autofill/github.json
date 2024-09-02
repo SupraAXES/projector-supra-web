@@ -1,0 +1,24 @@
+{
+  "fields": [{
+    "fieldType": "username",
+    "fieldValue": "",
+    "location": [{
+      "id": "login_field"
+    }]
+  }, {
+    "fieldType": "password",
+    "fieldValue": "",
+    "location": [{
+      "id": "password"
+    }]
+  }, {
+    "fieldType": "submitButton",
+    "fieldValue": "",
+    "location": [{
+      "type": "submit",
+      "name": "commit"
+    }]
+  }],
+  "site": "https://github.com/*",
+  "url": "https://github.com/login"
+}

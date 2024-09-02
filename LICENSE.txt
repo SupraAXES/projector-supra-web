@@ -1,0 +1,56 @@
+---
+SupraAXES Commercial Image License Agreement
+
+This SupraAXES Commercial Image License Agreement (the "Agreement") is made and entered into as of the date the image is first used (the "Effective Date").
+
+1. Grant of License
+Subject to the terms and conditions of this Agreement, SupraAXES Technologies Inc. ("Licensor") hereby grants to you ("Licensee") a non-exclusive, non-transferable license to use the Image (the "Software") solely for your internal business purposes. The Licensee is permitted to use the Software within its internal systems that serve external users, provided that such use does not involve the incorporation of the Software into any commercial products or services that are sold, leased, or otherwise distributed to third parties.
+
+Any use of the Software by the Licensee must strictly comply with the terms and conditions set forth in this Agreement.
+
+2. FEE AND PAYMENT
+The use of the Software shall be subject to a license fee as determined by Licensor from time to time. Licensee agrees to pay such fee in accordance with the payment terms provided by Licensor.
+
+3. Restrictions
+Licensee shall not, directly or indirectly:
+- Modify, reverse engineer, decompile, disassemble, or create derivative works of the Software;
+- Distribute, sublicense, rent, lease, loan, sell, or otherwise transfer the Software to any third party;
+- Use the Software for any purpose other than as expressly permitted in Section 1;
+- Remove or alter any proprietary notices or labels on or in the Software;
+- Use the Software in any manner that infringes upon any intellectual property right or other right of Licensor or any third party.
+
+Any modifications to the restrictions set forth in this Section 3 shall require a written agreement from Licensor.
+
+4. Ownership
+All right, title, and interest in and to the Software, including all intellectual property rights therein, shall remain with and belong exclusively to Licensor. Licensee acknowledges that it does not acquire any ownership interest in the Software except for the limited license rights granted herein.
+
+5. Confidentiality
+Licensee agrees to maintain the confidentiality of the Software and any related documentation provided by Licensor. Licensee shall not disclose any confidential information to any third party without the prior written consent of Licensor.
+
+6. Term and Termination
+This Agreement shall commence on the Effective Date and shall continue until terminated. Licensor may terminate this Agreement immediately upon written notice to Licensee if Licensee breaches any material term or condition of this Agreement and fails to cure such breach within thirty (30) days after receipt of written notice thereof.
+
+7. Support and Maintenance
+[Licensor may provide or may not provide support and maintenance services for the Software. If support and maintenance services are provided, the terms and conditions for such services will be set forth in a separate agreement.]
+
+8. Warranties and Disclaimers
+EXCEPT FOR THE EXPRESS WARRANTY SET FORTH IN THIS SECTION 7, THE SOFTWARE IS PROVIDED "AS IS" AND LICENSOR DISCLAIMS ALL OTHER WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT.
+
+9. Indemnification
+Licensee shall indemnify and hold harmless Licensor and its affiliates, officers, directors, employees, and agents from and against any and all claims, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or in connection with Licensee's use of the Software or breach of this Agreement.
+
+10. License File
+Each Licensee will receive a license file (the "License File"). The License File is required to activate the Software and is an integral part of this Agreement. Licensee shall use the Software only in accordance with the terms specified in the License File.
+
+11. Governing Law and Dispute Resolution
+This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, U.S. Any disputes arising out of or relating to this Agreement shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association.
+
+12. Acceptance
+BY USING THE SOFTWARE, LICENSEE ACKNOWLEDGES THAT IT HAS READ THIS AGREEMENT, UNDERSTANDS IT, AND AGREES TO BE BOUND BY ITS TERMS. IF LICENSEE DOES NOT AGREE TO THE TERMS OF THIS AGREEMENT, LICENSEE MAY NOT USE THE SOFTWARE.
+
+13. Miscellaneous
+This Agreement constitutes the entire agreement between the parties concerning the subject matter hereof and supersedes all prior and contemporaneous agreements and understandings, whether written or oral, concerning the Software. No modification or amendment of this Agreement shall be effective unless in writing and signed by both parties.
+
+If any provision of this Agreement is held invalid or unenforceable, that provision shall be construed in a manner consistent with applicable law to reflect, as nearly as possible, the original intentions of the parties, and the remaining provisions shall remain in full force and effect.
+
+---
