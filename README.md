@@ -14,7 +14,7 @@
 - autofill
 
 ## License file
-**projector-supra-web** is a commercial image with an evaluation license for 4 monthes. There will be monthly update to the official image, identified by specific tag (e.g. supraaxes/projector-supra-web:202409) and with up-to-date evaluation license.
+**projector-supra-web** is a commercial image with an evaluation license for 4 months. There will be monthly update to the official image, identified by specific tag (e.g. supraaxes/projector-supra-web:202409) and with up-to-date evaluation license.
 
 A license file is required for each business deployment, please contact info@supraaxes.com for detailed information.
 
@@ -30,7 +30,7 @@ docker run --name rbi-vnc -d \
 	-e SUPRA_PROJECTOR_NETWORK='supra-projector' \
 	-e SUPRA_PROJECTOR_IMAGE='supraaxes/projector-supra-web' \
 	-v /var/run/docker.sock:/var/run/docker.sock \
-	vnc_rbi
+	supraaxes/suprarbi-vnc
 ```
 
 ### username for VNC connection
@@ -54,7 +54,7 @@ The target URL specified in ** username for VNC connection** MUST be the same as
 >
 > **instance-settings**: set the values for autofill fields defined in **fields** in the JSON file with autofill settings.<br>
 >> The name for an autofill field **MUST** be "autofill-{fieldType}", and the value will overwrite the default value specified in the JSON file.<br> 
-<br>
+> <br>
 > NOTE: If the **fieldValue** for a field is blank in the JSON file AND neither is the value set in **instance-settings**, the autofill script will trigger a click on the field.
 
 
