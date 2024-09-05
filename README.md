@@ -1,6 +1,6 @@
 # projector-supra-web
 
-**project-supra-web** is a customized projector image for [**SupraRBI-VNC**](https://github.com/supraaxes/suprarbi-vnc) and some other solutions from [SupraAXES Technologies, Inc.](https://www.supraaxes.com). 
+**project-supra-web** is a customized projector image for [**SupraRBI-VNC**](https://github.com/supraaxes/suprarbi-vnc) and some other solutions from [SupraAXES Technologies, Inc.](https://www.supraaxes.com), please contact info@supraaxes.com for detailed information. 
 
 > ```
 > docker pull supraaxes/projector-supra-web
@@ -16,7 +16,7 @@
 ## License file
 **projector-supra-web** is a commercial image with an evaluation license for 4 months. There will be monthly update to the official image, identified by specific tag (e.g. supraaxes/projector-supra-web:202409) and with up-to-date evaluation license.
 
-A license file is required for each business deployment, please contact info@supraaxes.com for detailed information.
+A license file is required for each business deployment.
 
 
 ## Usage
@@ -31,6 +31,8 @@ docker run --name rbi-vnc -d \
 	-v /var/run/docker.sock:/var/run/docker.sock \
 	supraaxes/suprarbi-vnc
 ```
+
+A good solution for secure access to a web page/site or application is **projector-supra-web** together with [SupraRBI-VNC and Apache Guacamole](guacamole.md).
 
 ### username for VNC connection
 The target URL specified in ** username for VNC connection** MUST be the same as the value of **url** in the **JSON file with autofill settings**.
