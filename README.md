@@ -14,7 +14,7 @@
 - autofill
 
 ## License file
-**projector-supra-web** is a commercial image with an evaluation license for 4 months. There will be monthly update to the official image, identified by specific tag (e.g. supraaxes/projector-supra-web:202409) and with up-to-date evaluation license.
+**projector-supra-web** is a commercial image with an evaluation license for 4 months. There will be monthly update to the official image, identified by specific tag (e.g. supraaxes/projector-supra-web:202503) and with up-to-date evaluation license.
 
 A license file is required for each business deployment.
 
@@ -24,7 +24,7 @@ To use **projector-supra-web** for [**SupraRBI-VNC**](https://github.com/supraax
 
 ```
 docker run --name rbi-vnc -d \
-    --network supra-projector \
+  --network supra-projector \
 	-p 5900:5900 \
 	-e SUPRA_PROJECTOR_NETWORK='supra-projector' \
 	-e SUPRA_PROJECTOR_IMAGE='supraaxes/projector-supra-web' \
@@ -45,7 +45,14 @@ The target URL specified in ** username for VNC connection** MUST be the same as
       "/autofill/settings/file.json:/opt/supra/conf/autofill.json:ro",
       "/customer/license.json:/opt/supra/conf/license.json:ro"
       ], 
-    "instance-settings": {"autofill-username": "myname", "autofill-password": "mypassword"}
+    "instance-settings": {
+      "autofill-username": "myname", 
+      "autofill-password": "mypassword",
+      "http-basic-auth": {
+        name: username, 
+        passwd: password
+      }
+    }
 ...
 }
 ```
@@ -53,13 +60,14 @@ The target URL specified in ** username for VNC connection** MUST be the same as
 > - the destination path for the JSON file with autofill settings in the projector instance **MUST** be  */opt/supra/conf/autofill.json*.<br>
 > - the destination path for the license file in the projector instance **MUST** be  */opt/supra/conf/license.json*.<br>
 >
-> **instance-settings**: set the values for autofill fields defined in **fields** in the JSON file with autofill settings.<br>
->> The name for an autofill field **MUST** be "autofill-{fieldType}", and the value will overwrite the default value specified in the JSON file.<br> 
+> **instance-settings**: provide custom settings for the RBI session in JSON format, currently mainly for autofill. 
+>> - set the values for autofill fields in a web page defined in **fields** in the JSON file (/opt/supra/conf/autofill.json, as specified blow) with **autofill-{fieldType}**.<br>
+>>> - The name for an autofill field **MUST** be "autofill-{fieldType}", and the value will overwrite the default value specified in the JSON file.<br> 
+>>> - If the **fieldValue** for a field is blank in the JSON file AND neither is the value set in **instance-settings**, the autofill script will trigger a click on the field.
+>> - set autofill for [basic HTTP auth](https://www.rfc-editor.org/rfc/rfc7617.html) with **http-basic-auth**.<br>
 > <br>
-> NOTE: If the **fieldValue** for a field is blank in the JSON file AND neither is the value set in **instance-settings**, the autofill script will trigger a click on the field.
 
-
-## Autofill 
+## Autofill in web page
 Besides of autofill settings in the password for VNC connection, to enable autofill for a RBI session the user needs to have a JSON file with autofill settings on the host and properly setup the password for VNC connection.
 
 ### JSON file with autofill settings
