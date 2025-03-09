@@ -22,7 +22,6 @@ A license file is required for each business deployment.
 ## Usage
 To use **projector-supra-web** for [**SupraRBI-VNC**](https://github.com/supraaxes/suprarbi-vnc), please make sure the environment variable *SUPRA_PROJECTOR_IMAGE* is set to *projector-supra-web* for the **SupraRBI-VNC** server.
 
-```
 ```sh
 docker run --name rbi-vnc -d \
   --network supra-projector \
@@ -31,7 +30,6 @@ docker run --name rbi-vnc -d \
   -e SUPRA_PROJECTOR_IMAGE='supraaxes/projector-supra-web' \
   -v /var/run/docker.sock:/var/run/docker.sock \
   supraaxes/suprarbi-vnc
-```
 ```
 
 A good solution for secure access to a web page/site or application is **projector-supra-web** together with [SupraRBI-VNC and Apache Guacamole](guacamole.md).
